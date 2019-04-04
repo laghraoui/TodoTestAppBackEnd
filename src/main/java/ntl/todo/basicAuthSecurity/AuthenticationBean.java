@@ -1,10 +1,10 @@
-package ntl.todo;
+package ntl.todo.basicAuthSecurity;
 
-public class HelloWorldBean {
+public class AuthenticationBean {
 	
 	private String message;
 
-	public HelloWorldBean(String message) {
+	public AuthenticationBean(String message) {
 		// TODO Auto-generated constructor stub
 		this.message = message;
 	}
