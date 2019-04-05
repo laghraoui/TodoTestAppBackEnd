@@ -1,4 +1,4 @@
-package ntl.todo.basicAuthSecurity;
+package ntl.basicAuthSecurity;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

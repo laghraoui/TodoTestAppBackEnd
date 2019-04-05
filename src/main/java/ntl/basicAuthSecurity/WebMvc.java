@@ -1,4 +1,4 @@
-package ntl.todo.basicAuthSecurity;
+package ntl.basicAuthSecurity;
   
 import org.springframework.context.annotation.Configuration; 
 import org.springframework.web.servlet.config.annotation.CorsRegistry; 

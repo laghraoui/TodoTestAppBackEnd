@@ -1,4 +1,4 @@
-package ntl.todo.basicAuthSecurity;
+package ntl.basicAuthSecurity;
 
 public class AuthenticationBean {
 	
