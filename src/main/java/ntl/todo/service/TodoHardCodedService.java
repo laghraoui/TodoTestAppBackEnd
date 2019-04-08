@@ -21,10 +21,8 @@ public class TodoHardCodedService {
 		todos.add(new Todo(++idCounter, "mehdi", "Learn Spring Boot", new Date(), true));
 		todos.add(new Todo(++idCounter, "mehdi", "Learn Spring Security", new Date(), false));
 		todos.add(new Todo(++idCounter, "mehdi", "Learn Microservices", new Date(), false));
-		todos.add(new Todo(++idCounter, "mehdi", "Learn Angular", new Date(), true));
 		todos.add(new Todo(++idCounter, "mehdi", "Go Full Stack Spring/Angular", new Date(), false));
-		todos.add(new Todo(++idCounter, "mehdi", "Learn Angular 2+", new Date(), true));
-		todos.add(new Todo(++idCounter, "mehdi", "Go Full Stack Spring/Angular and master it", new Date(), false));
+		todos.add(new Todo(++idCounter, "mehdi", "Learn Angular 4+", new Date(), true));
 	}
 
 	public List<Todo> findAll() {

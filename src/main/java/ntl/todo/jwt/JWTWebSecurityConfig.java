@@ -67,6 +67,7 @@ public class JWTWebSecurityConfig extends WebSecurityConfigurerAdapter {
 				 */            .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
             .authorizeRequests()
             .anyRequest().authenticated();
+       // httpSecurity.authorizeRequests().antMatchers("/**","/**").hasAuthority("ADMIN");
 
 		/* every request should go throw jwtAuthenticationTokenFilter */
        httpSecurity.addFilterBefore(jwtAuthenticationTokenFilter, UsernamePasswordAuthenticationFilter.class);
